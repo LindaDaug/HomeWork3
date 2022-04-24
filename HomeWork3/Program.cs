@@ -2,14 +2,14 @@
 using HomeWork3;
 
 
-Telefons telefons = new Telefons();
+Telefons nokia = new Telefons();
 Console.WriteLine("Enter size, brand, model");
 string size = Console.ReadLine();
 string brand = Console.ReadLine();
 string model = Console.ReadLine();
 
-telefons.Size = "large";
-telefons.Brand = ;
-telefons.Model = ;
+nokia.Size = 10;
+nokia.Brand = "Nokia";
+nokia.Model = 45.00;
 
-Console.WriteLine($"Apsveicu, Jūs izveidojāt {telefons.Size}");
+Console.WriteLine($"Apsveicu, Jūs izveidojāt {nokia.Size} izmēra {nokia.Brand} {nokia.Model}");

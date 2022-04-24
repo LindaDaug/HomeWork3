@@ -9,7 +9,7 @@ namespace HomeWork3
     public class Telefons
     {
         public double Size { get; set; }
-        public double Brand { get; set; }
+        public string Brand { get; set; }
         public double Model { get; set; }
         public void Call()
         {
@@ -17,7 +17,7 @@ namespace HomeWork3
         }
         public void Sms()
         {
-            Console.WriteLine("Calling");
+            Console.WriteLine("Sms");
         }
     }
 }
