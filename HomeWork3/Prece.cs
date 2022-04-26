@@ -18,7 +18,7 @@ namespace HomeWork3
 
         public void CreateProduct ()
         {
-            Console.WriteLine("Preces izveidošana");
+            Console.WriteLine("Gaidiet ... notiek preces izveidošana...");
         }
         public void ShowProduct ()
         {
